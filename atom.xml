@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>jiabinghao&#39;s Blog</title>
-  
+  <icon>https://www.gravatar.com/avatar/d1caa1a3d977fedf09f9379f239195d3</icon>
   <subtitle>一只默默无闻却感天动地的程序猿</subtitle>
   <link href="/atom.xml" rel="self"/>
   
@@ -11,7 +11,7 @@
   
   <author>
     <name>jiabinghao</name>
-    
+    <email>1678658510@qq.com</email>
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>

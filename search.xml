@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[page]]></title>
+    <url>%2F2018%2F01%2F08%2Fpage%2F</url>
+    <content type="text"><![CDATA[AV.initialize("dk7UYJQ5Bx38u8fR9OvgMpDH", "dk7UYJQ5Bx38u8fR9OvgMpDH"); //需要写上leancloud的key var time=0 var title="" var url="" var query = new AV.Query('Counter');//表名 query.notEqualTo('id',0); //id不为0的结果 query.descending('time'); //结果按阅读次数降序排序 query.limit(20); //最终只返回10条结果 query.find().then(function (todo) { for (var i=0;i]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[我的第一篇文章]]></title>
     <url>%2F2018%2F01%2F05%2F%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%2F</url>
     <content type="text"><![CDATA[哈哈哈哈，我就是简单的试一下你好你好你好 优秀的人，不是不合群，而是他们合群的人里面没有你]]></content>

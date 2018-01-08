@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-08T11:40:09.174Z</updated>
+  <updated>2018-01-08T09:57:34.284Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>page</title>
-    <link href="http://yoursite.com/2018/01/08/page/"/>
-    <id>http://yoursite.com/2018/01/08/page/</id>
-    <published>2018-01-08T11:37:23.000Z</published>
-    <updated>2018-01-08T11:40:09.174Z</updated>
-    
-    <content type="html"><![CDATA[<script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script><script>AV.initialize("dk7UYJQ5Bx38u8fR9OvgMpDH", "dk7UYJQ5Bx38u8fR9OvgMpDH");</script> //需要写上leancloud的key<script type="text/javascript">  var time=0  var title=""  var url=""  var query = new AV.Query('Counter');//表名  query.notEqualTo('id',0); //id不为0的结果  query.descending('time'); //结果按阅读次数降序排序  query.limit(20);  //最终只返回10条结果  query.find().then(function (todo) {    for (var i=0;i<10;i++){       var result=todo[i].attributes;      time=result.time;  //阅读次数      title=result.title; //文章标题      url=result.url;     //文章url      var content="<p>"+"<font color='#0477ab'>"+"【阅读次数:"+time+"】"+"<a href='"+"http://thief.one"+url+"'>"+title+"</font>"+"</a>"+"</p>";      // document.write("<a href='"+"http://thief.one/"+url+"'>"+title+"</a>"+"    Readtimes:"+time+"<br>");      document.getElementById("heheda").innerHTML+=content    }  }, function (error) {    console.log("error");  });</script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;script src=&quot;https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js&quot;&gt;&lt;/script&gt;
-&lt;script&gt;AV.initialize(&quot;dk7UYJQ5Bx38u8fR9OvgMpDH&quot;, &quot;dk7UYJQ5Bx
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>我的第一篇文章</title>

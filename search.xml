@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[我的第一篇文章]]></title>
+    <url>%2F2018%2F01%2F05%2F%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%2F</url>
+    <content type="text"><![CDATA[哈哈哈哈，我就是简单的试一下你好你好你好 优秀的人，不是不合群，而是他们合群的人里面没有你]]></content>
+      <tags>
+        <tag>1</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo搭建博客教程]]></title>
+    <url>%2F2018%2F01%2F04%2Fhexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%2F</url>
+    <content type="text"><![CDATA[123456hexo generatecp -R public/* .deploy/jiabinghao.github.iocd .deploy/jiabinghao.github.iogit add -Agit commit -m &quot;update&quot;git push origin master]]></content>
+      <tags>
+        <tag>2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello 贾丙豪]]></title>
+    <url>%2F2018%2F01%2F04%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Jia Binghao github’s home page! This is my very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>

@@ -205,22 +205,9 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>书接上文，进入树莓派以后，我们想要通过远程连接到树莓派，这样应该怎么办呢。答案就是修改树莓派的配置文件，使之能够自动连接到WiFi，那么如何修改呢，请看小编慢慢道来：</p>
-<h4 id="1-命令行中输入下面命令"><a href="#1-命令行中输入下面命令" class="headerlink" title="1. 命令行中输入下面命令"></a>1. 命令行中输入下面命令</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo nano /etc/network/interfaces</span><br></pre></td></tr></table></figure>
-<p>修改成为下图所示的配置文件：</p>
-<p><img src="/upload_image/树莓派8.png" alt=""></p>
-<p>其中无线名和密码填写自己的WiFi</p>
-<h4 id="2-配置命令"><a href="#2-配置命令" class="headerlink" title="2. 配置命令"></a>2. 配置命令</h4><p>接下来很多朋友不知道怎样退出的，如果有朋友学过vim的话，退出就比较简单了。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">ctrl+o       //保存</span><br><span class="line">enter       //确定</span><br><span class="line">ctrl+x     //退出</span><br><span class="line">sudo reboot //重启</span><br></pre></td></tr></table></figure></p>
-<p>完成上述命令之后，重新登录用户名和密码，再通过ping www.baidu.com来查看是否连接到外网即可。</p>
-<h4 id="4-配置远程桌面"><a href="#4-配置远程桌面" class="headerlink" title="4. 配置远程桌面"></a>4. 配置远程桌面</h4><p>命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo raspi-config</span><br></pre></td></tr></table></figure></p>
-<p>然后进入其中的选项5进入，打开 </p>
-<p>P3  VNC</p>
-<p>P2  SSH</p>
-<p>然后安装<a href="https://github.com/jiabinghao/test/blob/master/VNC-Viewer-6.17.731-Windows.exe" target="_blank" rel="noopener">VNC</a>这个软件，在其中输入树莓派的IP地址（通过输入命令ifconfig查看），进行远程桌面连接，输入用户名和密码就可以了。</p>
-<h4 id="6-安装软件"><a href="#6-安装软件" class="headerlink" title="6. 安装软件"></a>6. 安装软件</h4><p>进入之后，需要在其中安装编译C程序的工具，因为raspberry属于Linux的一种，所以在其中已经安装了python的编译器，就不用安装了。</p>
-<p>通过运行以下命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git clone git://git.drogon.net/wiringPi</span><br><span class="line">cd wiringPi</span><br><span class="line">git pull origin</span><br><span class="line">./build</span><br></pre></td></tr></table></figure></p>
-<p>配置完成后，可以通过以下命令进行查看<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gpio -v    </span><br><span class="line">gpio readall</span><br></pre></td></tr></table></figure></p>
-<p>因本人能力有限，博文中有哪些错误之敬请读者指出，不胜感激O(∩_∩)O。</p>
-
+        
+          <a class="article-more-a" href="/2018/01/10/树莓派教程（二）/#more">more >></a>
+        
       
 
       
